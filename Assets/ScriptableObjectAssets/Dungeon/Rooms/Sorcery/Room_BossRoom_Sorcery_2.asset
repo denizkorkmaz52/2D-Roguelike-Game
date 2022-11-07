@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
+  m_Name: Room_BossRoom_Sorcery_2
+  m_EditorClassIdentifier: 
+  guid: 3127f2d068bc3034fa40574588143a69
+  prefab: {fileID: 4969719553655747264, guid: d0d6c58f885e6a5478e9eb16743d11ce, type: 3}
+  previousPrefab: {fileID: 4969719553655747264, guid: d0d6c58f885e6a5478e9eb16743d11ce, type: 3}
+  battleMusic: {fileID: 11400000, guid: 929340dbff236c34cad10b4471458261, type: 2}
+  ambientMusic: {fileID: 11400000, guid: e236a54c0b648444f8a5f517d5ff8f69, type: 2}
+  roomNodeType: {fileID: 11400000, guid: d91f00160aff5b44c8dd08acbeb21bc7, type: 2}
+  lowerBounds: {x: -13, y: -14}
+  upperBounds: {x: 36, y: 29}
+  doorwayList:
+  - position: {x: 14, y: 29}
+    orientation: 0
+    doorPrefab: {fileID: 746474745647058196, guid: f67ab3c7220128c4eb5d877f0ebf693f, type: 3}
+    doorwayStartCopyPosition: {x: 11, y: 29}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 6
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 4, y: -14}
+    orientation: 2
+    doorPrefab: {fileID: 746474745647058196, guid: f67ab3c7220128c4eb5d877f0ebf693f, type: 3}
+    doorwayStartCopyPosition: {x: 1, y: -10}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 5
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 36, y: 9}
+    orientation: 1
+    doorPrefab: {fileID: 3689382160937854445, guid: d5a08ca82a91a354786939ddf2d8d431, type: 3}
+    doorwayStartCopyPosition: {x: 32, y: 15}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: -13, y: 5}
+    orientation: 3
+    doorPrefab: {fileID: 3689382160937854445, guid: d5a08ca82a91a354786939ddf2d8d431, type: 3}
+    doorwayStartCopyPosition: {x: -13, y: 11}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  spawnPositionArray:
+  - {x: -3, y: 21}
+  - {x: 11, y: 21}
+  - {x: 20, y: 20}
+  - {x: -2, y: 13}
+  - {x: 13, y: 13}
+  - {x: 25, y: 13}
+  - {x: -4, y: 3}
+  - {x: 9, y: 0}
+  - {x: 21, y: 2}
+  - {x: -2, y: -6}
+  - {x: 11, y: -5}
+  - {x: 23, y: -4}
+  enemiesByLevelList:
+  - dungeonLevel: {fileID: 11400000, guid: 8ca1bde23c1399e4487207691924a190, type: 2}
+    spawnableObjectRatioList:
+    - dungeonGameObject: {fileID: 11400000, guid: 19b442e1e03dd6446baaddfe33fea718, type: 2}
+      ratio: 1
+  - dungeonLevel: {fileID: 11400000, guid: 55a6fd445fc9fed43bc93955f2927d6e, type: 2}
+    spawnableObjectRatioList:
+    - dungeonGameObject: {fileID: 11400000, guid: 19b442e1e03dd6446baaddfe33fea718, type: 2}
+      ratio: 1
+    - dungeonGameObject: {fileID: 11400000, guid: bcbf565166cbc554dad8fedf3ab216b7, type: 2}
+      ratio: 1
+  - dungeonLevel: {fileID: 11400000, guid: 3d7a99836f66d9d43aff9d903fb0c701, type: 2}
+    spawnableObjectRatioList:
+    - dungeonGameObject: {fileID: 11400000, guid: 19b442e1e03dd6446baaddfe33fea718, type: 2}
+      ratio: 1
+    - dungeonGameObject: {fileID: 11400000, guid: bcbf565166cbc554dad8fedf3ab216b7, type: 2}
+      ratio: 1
+    - dungeonGameObject: {fileID: 11400000, guid: 240a038196a8fb445932b0238b24be21, type: 2}
+      ratio: 1
+  roomEnemySpawnParametersList:
+  - dungeonLevel: {fileID: 11400000, guid: 8ca1bde23c1399e4487207691924a190, type: 2}
+    minTotalEnemiesToSpawn: 2
+    maxTotalEnemiesToSpawn: 2
+    minConcurrentEnemies: 2
+    maxConcurrentEnemies: 2
+    minSpawnInterval: 2
+    maxSpawnInterval: 4
+  - dungeonLevel: {fileID: 11400000, guid: 55a6fd445fc9fed43bc93955f2927d6e, type: 2}
+    minTotalEnemiesToSpawn: 3
+    maxTotalEnemiesToSpawn: 3
+    minConcurrentEnemies: 3
+    maxConcurrentEnemies: 3
+    minSpawnInterval: 1
+    maxSpawnInterval: 2
+  - dungeonLevel: {fileID: 11400000, guid: 3d7a99836f66d9d43aff9d903fb0c701, type: 2}
+    minTotalEnemiesToSpawn: 4
+    maxTotalEnemiesToSpawn: 4
+    minConcurrentEnemies: 3
+    maxConcurrentEnemies: 3
+    minSpawnInterval: 1
+    maxSpawnInterval: 2

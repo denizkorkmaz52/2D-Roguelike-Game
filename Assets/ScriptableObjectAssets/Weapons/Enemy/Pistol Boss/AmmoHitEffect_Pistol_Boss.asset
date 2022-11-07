@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e88bf34764a9b4ea4c93bb4089c2e4, type: 3}
+  m_Name: AmmoHitEffect_Pistol_Boss
+  m_EditorClassIdentifier: 
+  colorGradient:
+    serializedVersion: 2
+    key0: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+    key1: {r: 0.990566, g: 0.48033106, b: 0.48033106, a: 0.9647059}
+    key2: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 0.7019608}
+    key3: {r: 1, g: 1, b: 1, a: 0}
+    key4: {r: 1, g: 1, b: 1, a: 0}
+    key5: {r: 1, g: 1, b: 1, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 5204
+    ctime2: 25250
+    ctime3: 37972
+    ctime4: 54741
+    ctime5: 65535
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 30647
+    atime2: 44333
+    atime3: 65535
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 6
+    m_NumAlphaKeys: 4
+  duration: 0.5
+  startParticleSize: 0.35
+  startParticleSpeed: 3.5
+  startLifetime: 0.5
+  maxParticleNumber: 25
+  emissionRate: 0
+  burstParticleNumber: 25
+  effectGravity: -0.01
+  sprite: {fileID: 0}
+  velocityOverLifetimeMin: {x: 0, y: 0, z: 0}
+  velocityOverLifetimeMax: {x: 0, y: 0, z: 0}
+  ammoHitEffectPrefab: {fileID: 4562392409327145334, guid: 162577f631108504c95ce339aad33ea3, type: 3}

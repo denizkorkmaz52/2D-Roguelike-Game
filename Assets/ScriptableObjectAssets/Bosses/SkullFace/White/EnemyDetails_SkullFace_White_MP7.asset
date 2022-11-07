@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c587a06710e88e24a8ba607006833d89, type: 3}
+  m_Name: EnemyDetails_SkullFace_White_MP7
+  m_EditorClassIdentifier: 
+  enemyName: SkullFace White
+  enemyPrefab: {fileID: 7867009155979159198, guid: fad39bb3277eac64a98be852f124faee, type: 3}
+  chaseDistance: 50
+  enemyStandardMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  enemyMaterializeTime: 2
+  enemyMaterializeShader: {fileID: -6465566751694194690, guid: 5fec8f8e6ea244648a3c6ede24a56288, type: 3}
+  enemyMaterializeColor: {r: 8.47419, g: 0, b: 6.122713, a: 1}
+  enemyWeapon: {fileID: 11400000, guid: 435b7e4faa280814da30397d3688ab59, type: 2}
+  firingIntervalMin: 1
+  firingIntervalMax: 3
+  firingDurationMin: 8
+  firingDurationMax: 10
+  firingLineOfSightRequired: 0
+  enemyHealthDetailsArray:
+  - dungeonLevel: {fileID: 11400000, guid: f989759c899e3284fabbc9c5235145f7, type: 2}
+    healthAmount: 300
+  - dungeonLevel: {fileID: 11400000, guid: bfd2cd3cb5a42cd4bb6bb9afcd31cca2, type: 2}
+    healthAmount: 400
+  - dungeonLevel: {fileID: 11400000, guid: 68e6df7c6ff3315499835359ca84250e, type: 2}
+    healthAmount: 400
+  - dungeonLevel: {fileID: 11400000, guid: 8ca1bde23c1399e4487207691924a190, type: 2}
+    healthAmount: 400
+  - dungeonLevel: {fileID: 11400000, guid: 55a6fd445fc9fed43bc93955f2927d6e, type: 2}
+    healthAmount: 400
+  - dungeonLevel: {fileID: 11400000, guid: 3d7a99836f66d9d43aff9d903fb0c701, type: 2}
+    healthAmount: 400
+  isImmuneAfterHit: 0
+  hitImmunityTime: 0
+  isHealthBarDisplayed: 1

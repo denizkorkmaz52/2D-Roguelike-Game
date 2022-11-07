@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e79e2438e91913c4c89bb4fad4490839, type: 3}
+  m_Name: "DEN\u0130Z"
+  m_EditorClassIdentifier: 
+  playerDetails: {fileID: 11400000, guid: 71cc610c65efb784b8525cffe2de3129, type: 2}
+  playerName: Deniz
