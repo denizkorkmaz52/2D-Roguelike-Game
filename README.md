@@ -24,9 +24,11 @@ Enemy Spawn Animation
 ![Enemy Spawn Animation](https://github.com/denizkorkmaz52/2D-Roguelike-Game/blob/main/Screen%20Shoots/Enemy%20Spawn%20Animation.PNG)
 
 Destroyed Objects
+
 ![Destroyed Objects](https://github.com/denizkorkmaz52/2D-Roguelike-Game/blob/main/Screen%20Shoots/Destroyed%20Objects.PNG)
 
 Boss Minimap
+
 ![Boss Minimap](https://github.com/denizkorkmaz52/2D-Roguelike-Game/blob/main/Screen%20Shoots/Boss%20Minimap.PNG)
 
 # Credit
