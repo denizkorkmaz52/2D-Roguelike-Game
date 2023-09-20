@@ -6,7 +6,7 @@ Hello this is my 2D rogue like game. In this game there are 6 levels, each level
 
 # Screenshots
 Menu
-![Menu](https://github.com/denizkorkmaz52/2D-Roguelike-Game/tree/main/Screen%20Shoots)
+![Menu](https://github.com/denizkorkmaz52/2D-Roguelike-Game/blob/main/Screen%20Shoots/Menu.PNG)
 
 High Scores
 ![High Scores](https://github.com/denizkorkmaz52/2D-Roguelike-Game/blob/main/Screen%20Shoots/High%20Scores.PNG)
@@ -21,6 +21,7 @@ High Scores
 ![High Scores](https://github.com/denizkorkmaz52/2D-Roguelike-Game/blob/main/Screen%20Shoots/High%20Scores.PNG)
 
 Enemy Spawn Animation
+
 ![Enemy Spawn Animation](https://github.com/denizkorkmaz52/2D-Roguelike-Game/blob/main/Screen%20Shoots/Enemy%20Spawn%20Animation.PNG)
 
 Destroyed Objects
